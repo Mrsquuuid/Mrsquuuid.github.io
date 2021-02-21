@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>Hexo</title>
+  <title>Hello World - Hexo</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -162,7 +162,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="">
+            <span class="h2" id="subtitle" title="Hello World">
               
             </span>
 
@@ -172,8 +172,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-02-21 17:14" pubdate>
-        February 21, 2021 pm
+      <time datetime="2013-07-13 20:46" pubdate>
+        July 13, 2013 pm
       </time>
     </span>
   
@@ -184,7 +184,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      1.1k 字
+      990 字
     </span>
   
 
@@ -194,7 +194,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      11
+      10
        分钟
     </span>
   
@@ -224,24 +224,10 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none"></h1>
+            <h1 style="display: none">Hello World</h1>
             
             <div class="markdown-body">
-              <ul>
-<li><a href="#1-%E4%BB%80%E4%B9%88%E6%98%AFnginx">1. 什么是nginx</a></li>
-<li><a href="#2-%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E4%B8%8E%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86">2. 正向代理与反向代理</a><ul>
-<li><a href="#21-%E6%A6%82%E5%BF%B5">2.1 概念</a></li>
-<li><a href="#22-%E5%8C%BA%E5%88%AB">2.2 区别</a><ul>
-<li><a href="#%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%AE%A2%E6%88%B7%E7%AB%AF-%E4%B8%80-%E4%BB%A3%E7%90%86-%E4%B8%80%E6%9C%8D%E5%8A%A1%E7%AB%AF">正向代理:客户端 &lt;一&gt; 代理 一&gt;服务端</a></li>
-<li><a href="#%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%AE%A2%E6%88%B7%E7%AB%AF-%E4%B8%80%E4%BB%A3%E7%90%86-%E4%B8%80-%E6%9C%8D%E5%8A%A1%E7%AB%AF">反向代理:客户端 一&gt;代理 &lt;一&gt; 服务端</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#3-%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1">3. 负载均衡</a></li>
-<li><a href="#4-%E5%8A%A8%E9%9D%99%E5%88%86%E7%A6%BB">4. 动静分离</a></li>
-</ul>
-<h1 id="1-什么是nginx"><a href="#1-什么是nginx" class="headerlink" title="1. 什么是nginx"></a>1. 什么是nginx</h1><p>Nginx (“engine x”) 是一个高性能的 HTTP 和反向代理服务器,特点是占有内存少，并发能力强。</p>
+              <h1 id="1-什么是nginx"><a href="#1-什么是nginx" class="headerlink" title="1. 什么是nginx"></a>1. 什么是nginx</h1><p>Nginx (“engine x”) 是一个高性能的 HTTP 和反向代理服务器,特点是占有内存少，并发能力强。</p>
 <p>Nginx 可以作为静态页面的 web 服务器，同时还支持 CGI 协议的动态语言，比如 perl、php等，但是不支持 java。Java 程序只能通过与 tomcat 配合完成。Nginx 专为性能优化而开发，性能是其最重要的考量,实现上非常注重效率 ，能经受高负载的考验,有报告表明能支持高达 50,000 个并发连接数。</p>
 <h1 id="2-正向代理与反向代理"><a href="#2-正向代理与反向代理" class="headerlink" title="2. 正向代理与反向代理"></a>2. 正向代理与反向代理</h1><h2 id="2-1-概念"><a href="#2-1-概念" class="headerlink" title="2.1 概念"></a>2.1 概念</h2><p><strong>正向代理</strong>是一个位于客户端和目标服务器之间的代理服务器(中间服务器)。为了从原始服务器取得内容，客户端向代理服务器发送一个请求，并且指定目标服务器，之后代理向目标服务器转交并且将获得的内容返回给客户端。正向代理的情况下客户端必须要进行一些特别的设置才能使用。</p>
 <p><strong>反向代理</strong>正好相反。对于客户端来说，反向代理就好像目标服务器。并且客户端不需要进行任何设置。客户端向反向代理发送请求，接着反向代理判断请求走向何处，并将请求转交给客户端，使得这些内容就好似他自己一样，一次客户端并不会感知到反向代理后面的服务，也因此不需要客户端做任何设置，只需要把反向代理服务器当成真正的服务器就好了。</p>
@@ -265,6 +251,13 @@
             <div>
               <div class="post-metas mb-3">
                 
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Diary/">Diary</a>
+                    
+                  </div>
+                
                 
               </div>
               
@@ -275,21 +268,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/02/21/Nginx/README/">
+                      <a href="/2021/02/21/hello-world/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile"></span>
+                        <span class="hidden-mobile">Hello World</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
-                    
-                      <a href="/2021/02/21/02-Nginx%E7%9A%84%E5%AE%89%E8%A3%85/">
-                        <span class="hidden-mobile"></span>
-                        <span class="visible-mobile">Next</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
                     
                   </article>
                 </div>
