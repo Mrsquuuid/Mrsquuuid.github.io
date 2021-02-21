@@ -1,0 +1,421 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  <title>page.title - Hexo</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+  <header style="height: 60vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Fluid</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Tags
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="page.title">
+              
+            </span>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<div class="page-content">
+  <ul>
+<li><a href="#1-%E5%9F%BA%E4%BA%8Eapt%E6%BA%90%E5%AE%89%E8%A3%85">1. 基于apt源安装</a><ul>
+<li><a href="#11-%E5%AE%89%E8%A3%85">1.1 安装</a></li>
+<li><a href="#12-%E6%B5%8B%E8%AF%95%E5%AE%89%E8%A3%85%E6%98%AF%E5%90%A6%E6%88%90%E5%8A%9F">1.2 测试安装是否成功</a></li>
+<li><a href="#13-%E5%8D%B8%E8%BD%BD">1.3 卸载</a><ul>
+<li><a href="#1-%E5%81%9C%E6%AD%A2nginx%E6%9C%8D%E5%8A%A1">1. 停止nginx服务</a></li>
+<li><a href="#2-%E5%88%A0%E9%99%A4nginx-purge%E5%8C%85%E6%8B%AC%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">2. 删除nginx，-purge包括配置文件</a></li>
+<li><a href="#3-%E7%A7%BB%E9%99%A4%E5%85%A8%E9%83%A8%E4%B8%8D%E4%BD%BF%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%8C%85">3. 移除全部不使用的软件包</a></li>
+<li><a href="#4-%E7%BD%97%E5%88%97%E5%87%BA%E4%B8%8Enginx%E7%9B%B8%E5%85%B3%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%B9%B6%E5%88%A0%E9%99%A4">4. 罗列出与nginx相关的软件并删除</a></li>
+<li><a href="#5-%E6%9F%A5%E7%9C%8Bnginx%E6%AD%A3%E5%9C%A8%E8%BF%90%E8%A1%8C%E7%9A%84%E8%BF%9B%E7%A8%8B%E5%A6%82%E6%9E%9C%E6%9C%89%E5%B0%B1kill%E6%8E%89">5. 查看nginx正在运行的进程，如果有就kill掉</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#2-%E9%80%9A%E8%BF%87%E6%BA%90%E7%A0%81%E5%8C%85%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85">2. 通过源码包编译安装</a><ul>
+<li><a href="#1-%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E4%BE%9D%E8%B5%96%E5%BA%93">1. 安装各种依赖库</a></li>
+<li><a href="#2-%E5%AE%89%E8%A3%85nginx">2. 安装Nginx</a></li>
+<li><a href="#3-%E9%85%8D%E7%BD%AE%E8%BD%AF%E9%93%BE%E6%8E%A5">3. 配置软链接</a></li>
+<li><a href="#4-%E9%85%8D%E7%BD%AE%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1">4. 配置开机启动服务</a></li>
+</ul>
+</li>
+</ul>
+<p>此安装过程是在ubuntu18下完成的。</p>
+<h1 id="1-基于apt源安装"><a href="#1-基于apt源安装" class="headerlink" title="1. 基于apt源安装"></a>1. 基于apt源安装</h1><h2 id="1-1-安装"><a href="#1-1-安装" class="headerlink" title="1.1 安装"></a>1.1 安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs shell">// 更新包<br>sudo apt-get update<br>// 下载安装nginx<br>sudo apt-get install nginx<br></code></pre></td></tr></table></figure>
+
+<p>Ubuntu安装之后的文件结构大致为：</p>
+<ul>
+<li>所有的配置文件都在/etc/nginx下，并且每个虚拟主机已经安排在了/etc/nginx/sites-available下</li>
+<li>程序文件在/usr/sbin/nginx</li>
+<li>日志放在了/var/log/nginx中</li>
+<li>并已经在/etc/init.d/下创建了启动脚本nginx</li>
+<li>默认的虚拟主机的目录设置在了/var/www/nginx-default (有的版本 默认的虚拟主机的目录设置在了/var/www, 请参考/etc/nginx/sites-available里的配置)</li>
+</ul>
+<p>其实从上面的根目录文件夹可以知道，Linux系统的配置文件一般放在/etc，日志一般放在/var/log，运行的程序一般放在/usr/sbin或者/usr/bin。</p>
+<p>当然，如果要更清楚Nginx的配置项放在什么地方，可以打开/etc/nginx/nginx.conf</p>
+<p>然后通过这种方式安装的，会自动创建服务，会自动在/etc/init.d/nginx新建服务脚本，然后就可以使用一下命令来启动</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo service nginx &#123;start|stop|restart|reload|force-reload|status|configtest|rotate|upgrade&#125;<br></code></pre></td></tr></table></figure>
+
+<p>脚本如下：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">#</span><span class="bash">!/bin/sh</span><br><br><span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">## BEGIN INIT INFO</span></span><br><span class="hljs-meta">#</span><span class="bash"> Provides:	  nginx</span><br><span class="hljs-meta">#</span><span class="bash"> Required-Start:    <span class="hljs-variable">$local_fs</span> <span class="hljs-variable">$remote_fs</span> <span class="hljs-variable">$network</span> <span class="hljs-variable">$syslog</span> <span class="hljs-variable">$named</span></span><br><span class="hljs-meta">#</span><span class="bash"> Required-Stop:     <span class="hljs-variable">$local_fs</span> <span class="hljs-variable">$remote_fs</span> <span class="hljs-variable">$network</span> <span class="hljs-variable">$syslog</span> <span class="hljs-variable">$named</span></span><br><span class="hljs-meta">#</span><span class="bash"> Default-Start:     2 3 4 5</span><br><span class="hljs-meta">#</span><span class="bash"> Default-Stop:      0 1 6</span><br><span class="hljs-meta">#</span><span class="bash"> Short-Description: starts the nginx web server</span><br><span class="hljs-meta">#</span><span class="bash"> Description:       starts nginx using start-stop-daemon</span><br><span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">## END INIT INFO</span></span><br><br>PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin<br>DAEMON=/usr/sbin/nginx<br>NAME=nginx<br>DESC=nginx<br><br><span class="hljs-meta">#</span><span class="bash"> Include nginx defaults <span class="hljs-keyword">if</span> available</span><br>if [ -r /etc/default/nginx ]; then<br>	. /etc/default/nginx<br>fi<br><br>STOP_SCHEDULE=&quot;$&#123;STOP_SCHEDULE:-QUIT/5/TERM/5/KILL/5&#125;&quot;<br><br>test -x $DAEMON || exit 0<br><br>. /lib/init/vars.sh<br>. /lib/lsb/init-functions<br><br><span class="hljs-meta">#</span><span class="bash"> Try to extract nginx pidfile</span><br>PID=$(cat /etc/nginx/nginx.conf | grep -Ev &#x27;^\s*#&#x27; | awk &#x27;BEGIN &#123; RS=&quot;[;&#123;&#125;]&quot; &#125; &#123; if ($1 == &quot;pid&quot;) print $2 &#125;&#x27; | head -n1)<br>if [ -z &quot;$PID&quot; ]; then<br>	PID=/run/nginx.pid<br>fi<br><br>if [ -n &quot;$ULIMIT&quot; ]; then<br><span class="hljs-meta">	#</span><span class="bash"> Set <span class="hljs-built_in">ulimit</span> <span class="hljs-keyword">if</span> it is <span class="hljs-built_in">set</span> <span class="hljs-keyword">in</span> /etc/default/nginx</span><br>	ulimit $ULIMIT<br>fi<br><br>start_nginx() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Start the daemon/service</span><br><span class="hljs-meta">	#</span><br><span class="bash">	<span class="hljs-comment"># Returns:</span></span><br><span class="hljs-meta">	#</span><span class="bash">   0 <span class="hljs-keyword">if</span> daemon has been started</span><br><span class="hljs-meta">	#</span><span class="bash">   1 <span class="hljs-keyword">if</span> daemon was already running</span><br><span class="hljs-meta">	#</span><span class="bash">   2 <span class="hljs-keyword">if</span> daemon could not be started</span><br>	start-stop-daemon --start --quiet --pidfile $PID --exec $DAEMON --test &gt; /dev/null \<br>		|| return 1<br>	start-stop-daemon --start --quiet --pidfile $PID --exec $DAEMON -- \<br><span class="hljs-meta">		$</span><span class="bash">DAEMON_OPTS 2&gt;/dev/null \</span><br><span class="bash">		|| <span class="hljs-built_in">return</span> 2</span><br>&#125;<br><br>test_config() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Test the nginx configuration</span><br><span class="hljs-meta">	$</span><span class="bash">DAEMON -t <span class="hljs-variable">$DAEMON_OPTS</span> &gt;/dev/null 2&gt;&amp;1</span><br>&#125;<br><br>stop_nginx() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Stops the daemon/service</span><br><span class="hljs-meta">	#</span><br><span class="bash">	<span class="hljs-comment"># Return</span></span><br><span class="hljs-meta">	#</span><span class="bash">   0 <span class="hljs-keyword">if</span> daemon has been stopped</span><br><span class="hljs-meta">	#</span><span class="bash">   1 <span class="hljs-keyword">if</span> daemon was already stopped</span><br><span class="hljs-meta">	#</span><span class="bash">   2 <span class="hljs-keyword">if</span> daemon could not be stopped</span><br><span class="hljs-meta">	#</span><span class="bash">   other <span class="hljs-keyword">if</span> a failure occurred</span><br>	start-stop-daemon --stop --quiet --retry=$STOP_SCHEDULE --pidfile $PID --name $NAME<br>	RETVAL=&quot;$?&quot;<br>	sleep 1<br>	return &quot;$RETVAL&quot;<br>&#125;<br><br>reload_nginx() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Function that sends a SIGHUP to the daemon/service</span><br>	start-stop-daemon --stop --signal HUP --quiet --pidfile $PID --name $NAME<br>	return 0<br>&#125;<br><br>rotate_logs() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Rotate <span class="hljs-built_in">log</span> files</span><br>	start-stop-daemon --stop --signal USR1 --quiet --pidfile $PID --name $NAME<br>	return 0<br>&#125;<br><br>upgrade_nginx() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Online upgrade nginx executable</span><br><span class="hljs-meta">	#</span><span class="bash"> http://nginx.org/en/docs/control.html</span><br><span class="hljs-meta">	#</span><br><span class="bash">	<span class="hljs-comment"># Return</span></span><br><span class="hljs-meta">	#</span><span class="bash">   0 <span class="hljs-keyword">if</span> nginx has been successfully upgraded</span><br><span class="hljs-meta">	#</span><span class="bash">   1 <span class="hljs-keyword">if</span> nginx is not running</span><br><span class="hljs-meta">	#</span><span class="bash">   2 <span class="hljs-keyword">if</span> the pid files were not created on time</span><br><span class="hljs-meta">	#</span><span class="bash">   3 <span class="hljs-keyword">if</span> the old master could not be killed</span><br>	if start-stop-daemon --stop --signal USR2 --quiet --pidfile $PID --name $NAME; then<br><span class="hljs-meta">		#</span><span class="bash"> Wait <span class="hljs-keyword">for</span> both old and new master to write their pid file</span><br>		while [ ! -s &quot;$&#123;PID&#125;.oldbin&quot; ] || [ ! -s &quot;$&#123;PID&#125;&quot; ]; do<br>			cnt=`expr $cnt + 1`<br>			if [ $cnt -gt 10 ]; then<br>				return 2<br>			fi<br>			sleep 1<br>		done<br><span class="hljs-meta">		#</span><span class="bash"> Everything is ready, gracefully stop the old master</span><br>		if start-stop-daemon --stop --signal QUIT --quiet --pidfile &quot;$&#123;PID&#125;.oldbin&quot; --name $NAME; then<br>			return 0<br>		else<br>			return 3<br>		fi<br>	else<br>		return 1<br>	fi<br>&#125;<br><br>case &quot;$1&quot; in<br>	start)<br>		log_daemon_msg &quot;Starting $DESC&quot; &quot;$NAME&quot;<br>		start_nginx<br>		case &quot;$?&quot; in<br>			0|1) log_end_msg 0 ;;<br>			2)   log_end_msg 1 ;;<br>		esac<br>		;;<br>	stop)<br>		log_daemon_msg &quot;Stopping $DESC&quot; &quot;$NAME&quot;<br>		stop_nginx<br>		case &quot;$?&quot; in<br>			0|1) log_end_msg 0 ;;<br>			2)   log_end_msg 1 ;;<br>		esac<br>		;;<br>	restart)<br>		log_daemon_msg &quot;Restarting $DESC&quot; &quot;$NAME&quot;<br><br><span class="hljs-meta">		#</span><span class="bash"> Check configuration before stopping nginx</span><br>		if ! test_config; then<br>			log_end_msg 1 # Configuration error<br>			exit $?<br>		fi<br><br>		stop_nginx<br>		case &quot;$?&quot; in<br>			0|1)<br>				start_nginx<br>				case &quot;$?&quot; in<br>					0) log_end_msg 0 ;;<br>					1) log_end_msg 1 ;; # Old process is still running<br>					*) log_end_msg 1 ;; # Failed to start<br>				esac<br>				;;<br>			*)<br>				# Failed to stop<br>				log_end_msg 1<br>				;;<br>		esac<br>		;;<br>	reload|force-reload)<br>		log_daemon_msg &quot;Reloading $DESC configuration&quot; &quot;$NAME&quot;<br><br><span class="hljs-meta">		#</span><span class="bash"> Check configuration before stopping nginx</span><br><span class="hljs-meta">		#</span><br><span class="bash">		<span class="hljs-comment"># This is not entirely correct since the on-disk nginx binary</span></span><br><span class="hljs-meta">		#</span><span class="bash"> may differ from the in-memory one, but that<span class="hljs-string">&#x27;s not common.</span></span><br><span class="hljs-meta">		#</span><span class="bash"> We prefer to check the configuration and <span class="hljs-built_in">return</span> an error</span><br><span class="hljs-meta">		#</span><span class="bash"> to the administrator.</span><br>		if ! test_config; then<br>			log_end_msg 1 # Configuration error<br>			exit $?<br>		fi<br><br>		reload_nginx<br>		log_end_msg $?<br>		;;<br>	configtest|testconfig)<br>		log_daemon_msg &quot;Testing $DESC configuration&quot;<br>		test_config<br>		log_end_msg $?<br>		;;<br>	status)<br>		status_of_proc -p $PID &quot;$DAEMON&quot; &quot;$NAME&quot; &amp;&amp; exit 0 || exit $?<br>		;;<br>	upgrade)<br>		log_daemon_msg &quot;Upgrading binary&quot; &quot;$NAME&quot;<br>		upgrade_nginx<br>		log_end_msg $?<br>		;;<br>	rotate)<br>		log_daemon_msg &quot;Re-opening $DESC log files&quot; &quot;$NAME&quot;<br>		rotate_logs<br>		log_end_msg $?<br>		;;<br>	*)<br>		echo &quot;Usage: $NAME &#123;start|stop|restart|reload|force-reload|status|configtest|rotate|upgrade&#125;&quot; &gt;&amp;2<br>		exit 3<br>		;;<br>esac<br><br></code></pre></td></tr></table></figure>
+
+<p>还有一个好处，创建好的文件由于放在/usr/sbin目录下，所以能直接在终端中使用nginx命令而无需指定路径。</p>
+<h2 id="1-2-测试安装是否成功"><a href="#1-2-测试安装是否成功" class="headerlink" title="1.2 测试安装是否成功"></a>1.2 测试安装是否成功</h2><p>在命令行中输入：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo nginx -t<br></code></pre></td></tr></table></figure>
+
+<p>窗口显示：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">nginx: the configuration file /etc/nginx/nginx.conf syntax is ok<br>nginx: configuration file /etc/nginx/nginx.conf test is successful<br></code></pre></td></tr></table></figure>
+
+<p>在浏览器中输入ip地址：</p>
+<p><img src="https://gitee.com/krislin_zhao/IMGcloud/raw/master/img/20200519123550.png" srcset="/img/loading.gif"></p>
+<h2 id="1-3-卸载"><a href="#1-3-卸载" class="headerlink" title="1.3 卸载"></a>1.3 卸载</h2><h3 id="1-停止nginx服务"><a href="#1-停止nginx服务" class="headerlink" title="1. 停止nginx服务"></a>1. 停止nginx服务</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo service nginx stop<br></code></pre></td></tr></table></figure>
+
+<h3 id="2-删除nginx，-purge包括配置文件"><a href="#2-删除nginx，-purge包括配置文件" class="headerlink" title="2. 删除nginx，-purge包括配置文件"></a>2. 删除nginx，-purge包括配置文件</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt-get --purge remove nginx<br></code></pre></td></tr></table></figure>
+
+<h3 id="3-移除全部不使用的软件包"><a href="#3-移除全部不使用的软件包" class="headerlink" title="3. 移除全部不使用的软件包"></a>3. 移除全部不使用的软件包</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt-get autoremove<br></code></pre></td></tr></table></figure>
+
+<h3 id="4-罗列出与nginx相关的软件并删除"><a href="#4-罗列出与nginx相关的软件并删除" class="headerlink" title="4. 罗列出与nginx相关的软件并删除"></a>4. 罗列出与nginx相关的软件并删除</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs shell">dpkg --get-selections|grep nginx<br>sudo apt-get --purge remove nginx<br>sudo apt-get --purge remove nginx-common<br>sudo apt-get --purge remove nginx-core<br></code></pre></td></tr></table></figure>
+
+<h3 id="5-查看nginx正在运行的进程，如果有就kill掉"><a href="#5-查看nginx正在运行的进程，如果有就kill掉" class="headerlink" title="5. 查看nginx正在运行的进程，如果有就kill掉"></a>5. 查看nginx正在运行的进程，如果有就kill掉</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">ps -ef |grep nginx<br>sudo kill -9 XXX<br></code></pre></td></tr></table></figure>
+
+<h1 id="2-通过源码包编译安装"><a href="#2-通过源码包编译安装" class="headerlink" title="2. 通过源码包编译安装"></a>2. 通过源码包编译安装</h1><p>这种方式可以自定安装指定的模块以及最新的版本。方式更灵活。</p>
+<p>官方下载页面：<a target="_blank" rel="noopener" href="http://nginx.org/en/download.html">http://nginx.org/en/download.html</a></p>
+<p>configure配置文件详解：<a target="_blank" rel="noopener" href="http://nginx.org/en/docs/configure.html">http://nginx.org/en/docs/configure.html</a></p>
+<h2 id="1-安装各种依赖库"><a href="#1-安装各种依赖库" class="headerlink" title="1. 安装各种依赖库"></a>1. 安装各种依赖库</h2><p> 安装gcc g++的依赖库</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt-get install build-essential<br>sudo apt-get install libtool<br></code></pre></td></tr></table></figure>
+
+<p>安装pcre依赖库（<a target="_blank" rel="noopener" href="http://www.pcre.org/%EF%BC%89">http://www.pcre.org/）</a></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt-get update<br>sudo apt-get install libpcre3 libpcre3-dev<br></code></pre></td></tr></table></figure>
+
+<p>安装zlib依赖库（<a target="_blank" rel="noopener" href="http://www.zlib.net/">http://www.zlib.net</a>）</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt-get install zlib1g-dev<br></code></pre></td></tr></table></figure>
+
+<p>安装SSL依赖库（18.04默认已经安装了）</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt-get install openssl<br></code></pre></td></tr></table></figure>
+
+<h2 id="2-安装Nginx"><a href="#2-安装Nginx" class="headerlink" title="2. 安装Nginx"></a>2. 安装Nginx</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">#</span><span class="bash">下载最新版本：</span><br>wget http://nginx.org/download/nginx-1.13.6.tar.gz<br><span class="hljs-meta">#</span><span class="bash">解压：</span><br>tar -zxvf nginx-1.13.6.tar.gz<br><span class="hljs-meta">#</span><span class="bash">进入解压目录：</span><br>cd nginx-1.13.6<br><span class="hljs-meta">#</span><span class="bash">配置：</span><br>./configure --prefix=/usr/local/nginx <br><span class="hljs-meta">#</span><span class="bash">编译：</span><br>make<br><span class="hljs-meta">#</span><span class="bash">安装：</span><br>sudo make install<br><span class="hljs-meta">#</span><span class="bash">启动：</span><br>sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf<br>注意：-c 指定配置文件的路径，不加的话，nginx会自动加载默认路径的配置文件，可以通过-h查看帮助命令。<br><span class="hljs-meta">#</span><span class="bash">查看进程：</span><br>ps -ef | grep nginx<br></code></pre></td></tr></table></figure>
+
+<h2 id="3-配置软链接"><a href="#3-配置软链接" class="headerlink" title="3. 配置软链接"></a>3. 配置软链接</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx<br></code></pre></td></tr></table></figure>
+
+<p>现在就可以不用路径直接输入nginx启动。</p>
+<h2 id="4-配置开机启动服务"><a href="#4-配置开机启动服务" class="headerlink" title="4. 配置开机启动服务"></a>4. 配置开机启动服务</h2><p>在/etc/init.d/下创建nginx文件，sudo vim /etc/init.d/nginx，内容如下：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">#</span><span class="bash">!/bin/sh</span><br><br><span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">## BEGIN INIT INFO</span></span><br><span class="hljs-meta">#</span><span class="bash"> Provides:	  nginx</span><br><span class="hljs-meta">#</span><span class="bash"> Required-Start:    <span class="hljs-variable">$local_fs</span> <span class="hljs-variable">$remote_fs</span> <span class="hljs-variable">$network</span> <span class="hljs-variable">$syslog</span> <span class="hljs-variable">$named</span></span><br><span class="hljs-meta">#</span><span class="bash"> Required-Stop:     <span class="hljs-variable">$local_fs</span> <span class="hljs-variable">$remote_fs</span> <span class="hljs-variable">$network</span> <span class="hljs-variable">$syslog</span> <span class="hljs-variable">$named</span></span><br><span class="hljs-meta">#</span><span class="bash"> Default-Start:     2 3 4 5</span><br><span class="hljs-meta">#</span><span class="bash"> Default-Stop:      0 1 6</span><br><span class="hljs-meta">#</span><span class="bash"> Short-Description: starts the nginx web server</span><br><span class="hljs-meta">#</span><span class="bash"> Description:       starts nginx using start-stop-daemon</span><br><span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">## END INIT INFO</span></span><br><br>PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin<br>DAEMON=/usr/sbin/nginx<br>NAME=nginx<br>DESC=nginx<br><br><span class="hljs-meta">#</span><span class="bash"> Include nginx defaults <span class="hljs-keyword">if</span> available</span><br>if [ -r /etc/default/nginx ]; then<br>	. /etc/default/nginx<br>fi<br><br>STOP_SCHEDULE=&quot;$&#123;STOP_SCHEDULE:-QUIT/5/TERM/5/KILL/5&#125;&quot;<br><br>test -x $DAEMON || exit 0<br><br>. /lib/init/vars.sh<br>. /lib/lsb/init-functions<br><br><span class="hljs-meta">#</span><span class="bash"> Try to extract nginx pidfile</span><br>PID=$(cat /etc/nginx/nginx.conf | grep -Ev &#x27;^\s*#&#x27; | awk &#x27;BEGIN &#123; RS=&quot;[;&#123;&#125;]&quot; &#125; &#123; if ($1 == &quot;pid&quot;) print $2 &#125;&#x27; | head -n1)<br>if [ -z &quot;$PID&quot; ]; then<br>	PID=/run/nginx.pid<br>fi<br><br>if [ -n &quot;$ULIMIT&quot; ]; then<br><span class="hljs-meta">	#</span><span class="bash"> Set <span class="hljs-built_in">ulimit</span> <span class="hljs-keyword">if</span> it is <span class="hljs-built_in">set</span> <span class="hljs-keyword">in</span> /etc/default/nginx</span><br>	ulimit $ULIMIT<br>fi<br><br>start_nginx() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Start the daemon/service</span><br><span class="hljs-meta">	#</span><br><span class="bash">	<span class="hljs-comment"># Returns:</span></span><br><span class="hljs-meta">	#</span><span class="bash">   0 <span class="hljs-keyword">if</span> daemon has been started</span><br><span class="hljs-meta">	#</span><span class="bash">   1 <span class="hljs-keyword">if</span> daemon was already running</span><br><span class="hljs-meta">	#</span><span class="bash">   2 <span class="hljs-keyword">if</span> daemon could not be started</span><br>	start-stop-daemon --start --quiet --pidfile $PID --exec $DAEMON --test &gt; /dev/null \<br>		|| return 1<br>	start-stop-daemon --start --quiet --pidfile $PID --exec $DAEMON -- \<br><span class="hljs-meta">		$</span><span class="bash">DAEMON_OPTS 2&gt;/dev/null \</span><br><span class="bash">		|| <span class="hljs-built_in">return</span> 2</span><br>&#125;<br><br>test_config() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Test the nginx configuration</span><br><span class="hljs-meta">	$</span><span class="bash">DAEMON -t <span class="hljs-variable">$DAEMON_OPTS</span> &gt;/dev/null 2&gt;&amp;1</span><br>&#125;<br><br>stop_nginx() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Stops the daemon/service</span><br><span class="hljs-meta">	#</span><br><span class="bash">	<span class="hljs-comment"># Return</span></span><br><span class="hljs-meta">	#</span><span class="bash">   0 <span class="hljs-keyword">if</span> daemon has been stopped</span><br><span class="hljs-meta">	#</span><span class="bash">   1 <span class="hljs-keyword">if</span> daemon was already stopped</span><br><span class="hljs-meta">	#</span><span class="bash">   2 <span class="hljs-keyword">if</span> daemon could not be stopped</span><br><span class="hljs-meta">	#</span><span class="bash">   other <span class="hljs-keyword">if</span> a failure occurred</span><br>	start-stop-daemon --stop --quiet --retry=$STOP_SCHEDULE --pidfile $PID --name $NAME<br>	RETVAL=&quot;$?&quot;<br>	sleep 1<br>	return &quot;$RETVAL&quot;<br>&#125;<br><br>reload_nginx() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Function that sends a SIGHUP to the daemon/service</span><br>	start-stop-daemon --stop --signal HUP --quiet --pidfile $PID --name $NAME<br>	return 0<br>&#125;<br><br>rotate_logs() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Rotate <span class="hljs-built_in">log</span> files</span><br>	start-stop-daemon --stop --signal USR1 --quiet --pidfile $PID --name $NAME<br>	return 0<br>&#125;<br><br>upgrade_nginx() &#123;<br><span class="hljs-meta">	#</span><span class="bash"> Online upgrade nginx executable</span><br><span class="hljs-meta">	#</span><span class="bash"> http://nginx.org/en/docs/control.html</span><br><span class="hljs-meta">	#</span><br><span class="bash">	<span class="hljs-comment"># Return</span></span><br><span class="hljs-meta">	#</span><span class="bash">   0 <span class="hljs-keyword">if</span> nginx has been successfully upgraded</span><br><span class="hljs-meta">	#</span><span class="bash">   1 <span class="hljs-keyword">if</span> nginx is not running</span><br><span class="hljs-meta">	#</span><span class="bash">   2 <span class="hljs-keyword">if</span> the pid files were not created on time</span><br><span class="hljs-meta">	#</span><span class="bash">   3 <span class="hljs-keyword">if</span> the old master could not be killed</span><br>	if start-stop-daemon --stop --signal USR2 --quiet --pidfile $PID --name $NAME; then<br><span class="hljs-meta">		#</span><span class="bash"> Wait <span class="hljs-keyword">for</span> both old and new master to write their pid file</span><br>		while [ ! -s &quot;$&#123;PID&#125;.oldbin&quot; ] || [ ! -s &quot;$&#123;PID&#125;&quot; ]; do<br>			cnt=`expr $cnt + 1`<br>			if [ $cnt -gt 10 ]; then<br>				return 2<br>			fi<br>			sleep 1<br>		done<br><span class="hljs-meta">		#</span><span class="bash"> Everything is ready, gracefully stop the old master</span><br>		if start-stop-daemon --stop --signal QUIT --quiet --pidfile &quot;$&#123;PID&#125;.oldbin&quot; --name $NAME; then<br>			return 0<br>		else<br>			return 3<br>		fi<br>	else<br>		return 1<br>	fi<br>&#125;<br><br>case &quot;$1&quot; in<br>	start)<br>		log_daemon_msg &quot;Starting $DESC&quot; &quot;$NAME&quot;<br>		start_nginx<br>		case &quot;$?&quot; in<br>			0|1) log_end_msg 0 ;;<br>			2)   log_end_msg 1 ;;<br>		esac<br>		;;<br>	stop)<br>		log_daemon_msg &quot;Stopping $DESC&quot; &quot;$NAME&quot;<br>		stop_nginx<br>		case &quot;$?&quot; in<br>			0|1) log_end_msg 0 ;;<br>			2)   log_end_msg 1 ;;<br>		esac<br>		;;<br>	restart)<br>		log_daemon_msg &quot;Restarting $DESC&quot; &quot;$NAME&quot;<br><br><span class="hljs-meta">		#</span><span class="bash"> Check configuration before stopping nginx</span><br>		if ! test_config; then<br>			log_end_msg 1 # Configuration error<br>			exit $?<br>		fi<br><br>		stop_nginx<br>		case &quot;$?&quot; in<br>			0|1)<br>				start_nginx<br>				case &quot;$?&quot; in<br>					0) log_end_msg 0 ;;<br>					1) log_end_msg 1 ;; # Old process is still running<br>					*) log_end_msg 1 ;; # Failed to start<br>				esac<br>				;;<br>			*)<br>				# Failed to stop<br>				log_end_msg 1<br>				;;<br>		esac<br>		;;<br>	reload|force-reload)<br>		log_daemon_msg &quot;Reloading $DESC configuration&quot; &quot;$NAME&quot;<br><br><span class="hljs-meta">		#</span><span class="bash"> Check configuration before stopping nginx</span><br><span class="hljs-meta">		#</span><br><span class="bash">		<span class="hljs-comment"># This is not entirely correct since the on-disk nginx binary</span></span><br><span class="hljs-meta">		#</span><span class="bash"> may differ from the in-memory one, but that<span class="hljs-string">&#x27;s not common.</span></span><br><span class="hljs-meta">		#</span><span class="bash"> We prefer to check the configuration and <span class="hljs-built_in">return</span> an error</span><br><span class="hljs-meta">		#</span><span class="bash"> to the administrator.</span><br>		if ! test_config; then<br>			log_end_msg 1 # Configuration error<br>			exit $?<br>		fi<br><br>		reload_nginx<br>		log_end_msg $?<br>		;;<br>	configtest|testconfig)<br>		log_daemon_msg &quot;Testing $DESC configuration&quot;<br>		test_config<br>		log_end_msg $?<br>		;;<br>	status)<br>		status_of_proc -p $PID &quot;$DAEMON&quot; &quot;$NAME&quot; &amp;&amp; exit 0 || exit $?<br>		;;<br>	upgrade)<br>		log_daemon_msg &quot;Upgrading binary&quot; &quot;$NAME&quot;<br>		upgrade_nginx<br>		log_end_msg $?<br>		;;<br>	rotate)<br>		log_daemon_msg &quot;Re-opening $DESC log files&quot; &quot;$NAME&quot;<br>		rotate_logs<br>		log_end_msg $?<br>		;;<br>	*)<br>		echo &quot;Usage: $NAME &#123;start|stop|restart|reload|force-reload|status|configtest|rotate|upgrade&#125;&quot; &gt;&amp;2<br>		exit 3<br>		;;<br>esac<br></code></pre></td></tr></table></figure>
+
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">#</span><span class="bash">设置服务脚本有执行权限</span><br>sudo chmod +x /etc/init.d/nginx<br><span class="hljs-meta">#</span><span class="bash">注册服务<span class="hljs-built_in">cd</span> /etc/init.d/</span><br>sudo update-rc.d nginx defaults<br></code></pre></td></tr></table></figure>
+
+<p>现在基本上就可以开机启动了，常用的命令如下：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo service nginx &#123;start|stop|restart|reload|force-reload|status|configtest|rotate|upgrade&#125;<br></code></pre></td></tr></table></figure>
+</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    (function () {
+      var path = "/local-search.xml";
+      var inputArea = document.querySelector("#local-search-input");
+      inputArea.onclick = function () {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+        this.onclick = null
+      }
+    })()
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+
+</body>
+</html>
